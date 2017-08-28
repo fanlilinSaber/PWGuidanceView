@@ -28,7 +28,7 @@
 - (instancetype)initWithURL:(NSURL *)videoURL{
     if (self = [super init]) {
         self.videoURL = videoURL;
-        self.backgroundColor = [UIColor blackColor];
+        self.backgroundColor = [UIColor clearColor];
         [self addSubviews];
         // 使用这个category的应用不会随着手机静音键打开而静音，可在手机静音下播放声音
         NSError *setCategoryError = nil;
